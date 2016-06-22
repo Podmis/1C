@@ -12,7 +12,7 @@ function GetTime
 
     $dt = (get-date -format "dd.MM.yyyy|HH:mm:ss")+","+(get-date -UFormat "%a")
 
-Return $dt
+    Return $dt
 }
 
 # функция добавляет в log файл текст
